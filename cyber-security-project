@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cyber Security Awareness</title>
+<style>
+body{
+font-family:Arial;
+background:#f0f8ff;
+text-align:center;
+padding:20px;
+}
+.box{
+background:white;
+padding:20px;
+border-radius:10px;
+max-width:700px;
+margin:auto;
+}
+button{
+padding:10px 20px;
+font-size:16px;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h1>Cyber Security Awareness</h1>
+
+<p>Stay Safe Online!</p>
+
+<h2>Important Tips</h2>
+<ul style="text-align:left;">
+<li>Use strong passwords.</li>
+<li>Enable Two-Factor Authentication.</li>
+<li>Avoid suspicious links.</li>
+<li>Keep software updated.</li>
+<li>Use antivirus protection.</li>
+</ul>
+
+<button onclick="showMessage()">Check Safety Tip</button>
+
+<p id="msg"></p>
+</div>
+
+<script>
+function showMessage(){
+document.getElementById("msg").innerHTML =
+"Never share your password with anyone!";
+}
+</script>
+
+</body>
+</html>
